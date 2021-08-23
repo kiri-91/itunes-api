@@ -1,14 +1,14 @@
 <template>
 	<div>
 		<ul class="list">
-			<li class="item" v-for="item of items" :key="item.trackid">
+			<li class="item" v-for="item of items" :key="item.trackId">
 				<div class="item-inner">
 					<div class="photo">
-						<img :src="item.artworkUrl100" :alt="item.trackName" class="photo-img">
+						<img :src="item.artworkUrl100" :alt=item.trackName class="photo-img">
 					</div>
 					<div class="content">
 						<p><a :href="item.trackViewUrl" class="track" target="_brank">{{ item.trackName }}</a></p>
-						<p><a :href="item.trackViewUrl" class="artist" target="_brank">{{ item.artistName }}</a></p>
+						<p><a :href="item.artistViewUrl" class="artist" target="_brank">{{ item.artistName }}</a></p>
 						<div class="data">{{ getYear(item.releaseDate) }} / {{ item.primaryGenreName }} / {{ item.trackPrice }} yen</div>
 					</div>
 				</div>
