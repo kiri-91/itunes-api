@@ -103,4 +103,3 @@ export default {
   background: #35495e;
 }
 </style>
-</style>
