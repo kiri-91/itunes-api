@@ -1,9 +1,9 @@
 <template>
 	<div>
-		<dev class="container">
+		<div class="container">
 			<input type="text" class="text" v-model="term" @keyup.enter="exe">
 			<input type="submit" class="submit" value="Search" @click="exe">
-		</dev>
+		</div>
 	</div>
 </template>
 
