@@ -1,7 +1,7 @@
 <template>
 	<div class="root">
 		<Search class="search" @loadStart="onLoadStart" @loadComplete="onLoadComplete"/>
-		<Result :item="items" :loadProgress="loadProgress"/>
+		<Result :items="items" :loadProgress="loadProgress"/>
 	</div>
 </template>
 
