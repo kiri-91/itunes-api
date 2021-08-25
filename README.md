@@ -1,5 +1,8 @@
 # itunes-api
 
+## URL
+https://itunes-api.vercel.app
+
 ## Project setup
 ```
 npm install
